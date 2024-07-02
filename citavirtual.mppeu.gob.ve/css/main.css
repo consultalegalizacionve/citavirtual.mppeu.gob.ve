@@ -1,0 +1,278 @@
+
+
+
+form{
+    background: #FFFFFF;
+}
+
+#nota{
+    padding: 20px;
+    background: #FFFFFF;
+    color: blue;
+    font-size: 14px;
+    text-align: justify;
+}
+
+#nota span {
+    color: red;
+    font-weight: bold;
+}
+
+#nota hr{
+    background-color: #cccccc;
+    
+}
+
+#sf_admin_container ul.sf_admin_actions {
+  list-style-type: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 400px;
+}
+
+#borde{  
+  width: 1100px;
+  position: absolute;
+  background: #ffffff;
+  left: 50%;
+  margin-left: -500px;  /* width/2 = 500px / 2 */
+}
+
+.botonBuscar {
+  padding-left: 10px;
+  position: absolute;
+}
+
+#cuerpo{  
+  width: 1000px;
+  position: absolute;
+
+  left: 50%;
+  margin-left: -500px;  /* width/2 = 500px / 2 */
+}
+
+#bienvenidos{
+    color: #6B6B6B;
+    background: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+#bienvenidos img{
+    float: left;
+    position: relative;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+#bienvenidos span{
+    color: #E54A4C;
+    font-weight: normal;
+    position: relative;
+    padding-top: -15px;
+}
+#bienvenidos span ul li{
+    list-style-type: circle;
+    display: inline;
+}
+
+.help2 {
+  color: #E54A4C;
+  background: #FFFFFF;
+  padding-left: 17.3em;
+}
+
+#imagenizq {
+  background: url("../images/bk_izq.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  float: left;
+  margin-left: -272px;
+  margin-top: -291px;
+  position: fixed;
+}
+
+#imagender {
+  
+  float: right;
+  margin-left: 1133px;
+  margin-top: -291px;
+  position: fixed;
+}
+
+#pie{
+  text-align: center;
+  color: #000;
+  //background: url("/images/bk_footer.png") repeat-x;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
+
+th, td {
+    border: 0;
+    padding: 0.5em;
+}
+
+.sf_admin_form_field_etnia_id{
+    display: none;
+}
+
+.sf_admin_form_field_discapacidad_id{
+    display: none;
+}
+
+input, textarea, select, label{
+    font: 16px/1.231 arial,helvetica,clean,sans-serif;
+}
+
+#sf_admin_container .help {
+  color: #AAAAAA;
+  padding-left: 17.3em;
+}
+
+#sf_admin_container label {
+    color: #666666;
+    display: block;
+    float: left;
+    font-weight: normal !important;
+    padding: 0 1em 3px 0;
+    text-align: left;
+    width: 13em;
+}
+
+#sf_admin_container fieldset h2{
+    background-color:#E1E1E1;
+    color: #6B6B6B;
+    font-size:13px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#contenido{
+	width: 100%;
+	float: left;
+	margin-bottom:10px;
+	margin-top:-15px;
+    
+}
+
+#principal{
+	margin:0 auto 0 auto;
+	width:920px;
+	background: #ffffff;
+}
+
+#informacion_interes{
+	paddin-top:00px;
+	border: #f2f2f2 solid 1px;
+	width:908px;
+}
+
+#centerTop{
+
+	position: relative;
+}
+
+#centerDown{
+
+	position: relative;
+}
+
+#imagenes_enlaces{
+	float:right;
+	position: relative;
+	margin-right:10px;
+}
+
+#roller{
+	position: relative;
+	float:right;
+	border: #f2f2f2 solid 0px;
+	margin-right:110px;
+	margin-top:0px;
+	width:140px;
+}
+
+#interna{
+	position: relative;
+	margin-left:-20px;
+}
+
+#indexNoticia{
+	padding-top:15px;
+}
+
+#paginador{
+	font-size: 10pt;
+	color: #000;
+	padding: 15pt;
+	margin-left: 0px;
+	margin-top: -5px;
+	text-align:center;
+	font-weight:bold;
+	text-decoration:none;
+
+}
+#mensaje_paginador{
+	font-size: 9pt;
+	color: #000;
+	margin-top: -5px;
+	text-align:right;
+	margin-right: 120px;
+	position:relative;
+
+}
+
+#estilo_tabla1 td {
+	border: 0px;
+	padding: 0px;
+}
+
+.login {
+    background-color: #FFEBC1;
+    border: 2px solid #FDBF3B;
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding: 1em;
+}
+
+.flash_error {
+	font-size: 9pt;
+	color: #990000;
+}
+
+.permiso404
+{
+  background-image: url(../images/bg_sfTLock.jpg);
+  background-repeat: repeat-x;
+  background-color: #DEE8F2;
+  border: 1px solid #FFFFFF;
+  border-bottom-color: #B1C4EC;
+  border-right-color: #B1C4EC;
+}
+
+
+/*Adecuacion para la autenticacion */
+
+.panel-heading {
+    padding: 5px 15px;
+}
+
+.panel-footer {
+  padding: 1px 15px;
+  color: #A0A0A0;
+}
+
+.profile-img {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/*Fin de la autenticacion*/
+
